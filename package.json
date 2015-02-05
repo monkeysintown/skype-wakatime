@@ -1,0 +1,41 @@
+{
+  "name": "skype-wakatime",
+  "version": "0.1.0",
+  "description": "Wakatime for Skype",
+  "homepage": "https://monkeysintown.github.io/skype-wakatime",
+  "main": "./lib/wakatime-skype",
+  "preferGlobal": "true",
+  "bin": {
+    "wakatime-skype": "./bin/wakatime-skype"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/monkeysintown/skype-wakatime"
+  },
+  "author": {
+    "name": "Monkeys in Town Lda.",
+    "email": "office.lisbon@monkeysintown.com",
+    "url": "https://monkeysintown.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/monkeysintown/skype-wakatime/issues"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "package.json"
+  ],
+  "readme": "README.md",
+  "dependencies": {
+    "request": "^2.53.0",
+    "btoa": "^1.1.2",
+    "forever-monitor": "^1.5.2",
+    "sqlite3": "^3.0.4",
+    "ini": "1.3.2"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
